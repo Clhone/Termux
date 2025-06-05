@@ -36,13 +36,13 @@ cd xmrig || { echo "Direktori xmrig tidak wujud. Clone gagal?"; exit 1; }
 
 # Install dependensi
 echo ""
-echo "Memasang pakej diperlukan..."
+echo "Woooyy Santai dulu kawan...lagi gw kerjain...ngopi dulu kawan"
 sudo apt update
 sudo apt install -y cmake build-essential clang libssl-dev libhwloc-dev libuv1-dev automake autoconf libtool
 
 # Compile XMRig
 echo ""
-echo "Memulakan proses compile XMRig (sabar, ini mungkin ambil masa)..."
+echo "Memulakan proses compile XMRig (sabar, Ngopi dulu sama Gorengan)..."
 mkdir -p build && cd build
 cmake -DWITH_HWLOC=OFF ..
 make -j"$(nproc)"
