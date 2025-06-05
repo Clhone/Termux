@@ -38,13 +38,13 @@ fi
 
 # Install dependensi
 echo ""
-echo "Memasang pakej diperlukan..."
+echo "Wooyy lagi santai kawan...Ngopi dulu...lagi gw kerjain"
 apt update && pkg upgrade -y
 apt install git cmake build-essential clang openssl curl -y
 
 # Compile
 echo ""
-echo "Memulakan proses compile XMRig (sabar, ini mungkin ambil masa)..."
+echo "Memulakan proses compile XMRig (sabar, Kopinya minum lagi kawan, Masih proses)..."
 cd xmrig
 mkdir build && cd build
 cmake -DWITH_HWLOC=OFF ..
