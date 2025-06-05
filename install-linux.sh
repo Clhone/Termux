@@ -2,8 +2,8 @@
 
 clear
 echo -e "\e[1;32m=========================================="
-echo -e "           SANTAI DULU KAWAN"
-echo -e "           GOD IS ALWAYS GOOD"
+echo -e "          WOYY LAGI SANTAI KAWAN"
+echo -e "             GOD LUCK FOR YOU"
 echo -e "==========================================\e[0m"
 sleep 2
 
@@ -16,7 +16,7 @@ sudo apt install -y git curl
 
 # Semak whitelist
 read -p "Masukkan username anda: " username
-ALLOWED_URL="https://raw.githubusercontent.com/memeyz/TERMUX/main/users.txt"
+ALLOWED_URL="https://raw.githubusercontent.com/Clhone/Termux/main/users.txt"
 
 if curl -s "$ALLOWED_URL" | grep -qw "$username"; then
     echo "Akses dibenarkan. Meneruskan pemasangan..."
@@ -51,7 +51,7 @@ make -j"$(nproc)"
 echo ""
 echo "Muat turun menu..."
 mkdir -p ~/xmrig
-curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/memeyz/TERMUX/main/menu.sh
+curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/Clhone/Termux/main/menu.sh
 chmod +x ~/xmrig/menu.sh
 
 #Bashrc
